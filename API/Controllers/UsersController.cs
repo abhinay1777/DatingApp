@@ -30,7 +30,7 @@ namespace API.Controllers
 
         public async Task<ActionResult<UserEntity>> Getuser(int Id)
         {
-            return await _context.Users.FindAsync(Id);
+             return await _context.Users.FindAsync(Id);
         }
     }
 }
