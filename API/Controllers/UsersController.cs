@@ -32,5 +32,10 @@ namespace API.Controllers
         {
              return await _context.Users.FindAsync(Id);
         }
+
+        public void Test()
+        {
+            
+        }
     }
 }
